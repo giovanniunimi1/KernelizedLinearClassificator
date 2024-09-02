@@ -51,7 +51,7 @@ def grid_search(model_c, param_grid, X, y):
 
 
 #Load dataset
-df = pd.read_csv('your_dataset.csv') 
+df = pd.read_csv('dataset.csv') 
 
 #Check for NaN Values
 print("Valori mancanti per colonna:")
